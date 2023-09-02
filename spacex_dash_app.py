@@ -106,6 +106,7 @@ def get_scatter_plot(entered_site, payload_amt):
             color='Booster Version Category', 
             title='Correlations between Payload and Success for site ' + entered_site)
         return fig
+      
 # Run the app
 if __name__ == '__main__':
     app.run_server()

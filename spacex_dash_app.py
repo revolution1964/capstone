@@ -45,13 +45,12 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                 #dcc.RangeSlider(id='payload-slider',...)
                                 dcc.RangeSlider(id='payload-slider',
                                     min=0, max=10000, step=1000,
-                                    marks={
+                                    marks = {
                                         0: '0',
-                                        2000: '2k',
-                                        4000: '4k',
-                                        6000: '6k',
-                                        8000: '8k',
-                                        10000: '10k'
+                                        2500: '2500',
+                                        5000: '5000',
+                                        7500: '7500',
+                                        10000: '10000'
                                     },
                                     value=[min_payload, max_payload]
                                 ),

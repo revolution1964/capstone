@@ -1,5 +1,5 @@
 # capstone
 
-## Editing the file
+This repository contains the files for the IBM Data Science Capstone course.
 
-Its a markdown file in this repository.
+Charles D Simmons
